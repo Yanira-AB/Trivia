@@ -1,0 +1,171 @@
+body {
+  background-color: #7E78FE;
+  text-align: center;
+}
+
+header {
+  background-color: #4444E8;
+  padding-top: 1px;
+}
+
+form {
+  height: 180px;
+  width: 350px;
+  padding-top: 50px;
+  background-color: white;
+  border: 5px solid rgba(0, 0, .2);
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  font-family: fantasy;
+  font-size: 62px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 8px;
+  text-shadow: 8px -1px black;
+}
+
+.subTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.subTitleTwo {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 3px 3px #4444E8;
+}
+
+#nick {
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border-color: 2px solid black;
+  width: 250px;
+}
+
+.start {
+  border-radius: 8px;
+  border-color: 1px solid black;
+  height: 50px;
+  width: 150px;
+  background-color: #4444E8;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+ul {
+  list-style:none;
+}
+
+.questions {
+  font-size: 45px;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px black;
+}
+
+hr {
+  border: 3px solid white;
+}
+
+.tableOptions {
+  text-align: center;
+  margin: auto;
+}
+
+.imageOptions {
+  height: 300px;
+  width: 300px;
+}
+
+.manu {
+  height: 500px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.optionsQuestions {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 0;
+  width: 420px;
+  height: 50px;
+  background-color: #4444E8;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.subTitleThree {
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  text-align: center;
+  text-shadow: 2px 2px #4444E8;
+}
+
+.scoreNote {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-top: 40px;
+  border-style: dashed;
+  padding: 20px;
+}
+
+.out {
+  border-radius: 8px;
+  border-color: 1px solid #4444E8;
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #4444E8;
+  font-weight: bold;
+}
+
+#timer {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+#myProgress {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  background-color: #ddd;
+}
+
+#myBar {
+  background-color: #4CAF50;
+  width: 10px;
+  height: 30px;
+  position: absolute;
+}
